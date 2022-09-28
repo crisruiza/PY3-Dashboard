@@ -1,0 +1,42 @@
+/* Global */
+* {
+    font-family: Merriweather;
+}
+
+/* General */
+h1 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+/* SideBar */
+.sidebar {
+    background-color: black;
+    height: 100vh;
+}
+
+.nav {
+    background-color: yellow;
+    border-radius: 10px;
+
+}
+
+.proy-info {
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* Dashboard */
+.dashboard {
+    background-color: gainsboro;
+    padding: 0px;
+}
+
+.main-img {
+    width: 100%;
+    max-height: 70vh;
+}
