@@ -1,0 +1,25 @@
+{
+  "name": "py3-dashboard",
+  "version": "1.0.0",
+  "description": "Este proyecto es una base de datos utilizando la API de Marvel. Para usarlo no es necesario hacer nada mas que visualizar la información.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "npx nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crisruiza/PY3-Dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crisruiza/PY3-Dashboard/issues"
+  },
+  "homepage": "https://github.com/crisruiza/PY3-Dashboard#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

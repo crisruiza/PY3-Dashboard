@@ -1,6 +1,7 @@
 /* Global */
 * {
     font-family: Merriweather;
+    overflow-x: hidden;
 }
 
 body {

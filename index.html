@@ -17,7 +17,7 @@
 
 <body>
     <!-- NavBar -->
-    <nav class="navbar d-flex justify-content-between p-3">
+    <nav class="navbar d-flex justify-content-between p-3" id="navbar">
         <!-- Nav Logo -->
         <div class="nav-logo">
             <img src="/assets/images/Marvel_Logo.png" width="150" height="60" class="align-top" alt="">
@@ -27,7 +27,7 @@
             <button type="button" class="btn mr-3" onClick="document.getElementById('datos').scrollIntoView();"><i
                     class="fa-solid fa-database pr-2"></i> Datos</button>
             <button type="button" class="btn" onClick="document.getElementById('graficas').scrollIntoView();"><i
-                    class="fa-solid fa-chart-simple pr-2"></i> Gráficas</button>
+                    class="fa-solid fa-chart-simple pr-2"></i> Gráfica</button>
         </div>
     </nav>
     <!-- Presentación -->
@@ -65,26 +65,33 @@
                 <tr>
                     <th scope="col">ID</th>
                     <th scope="col">Nombre</th>
-                    <th scope="col">Descripción</th>
+                    <th scope="col">Historias disponibles</th>
                 </tr>
             </thead>
             <tbody id="tblMarvel"></tbody>
         </table>
     </div>
     <!-- Gráfica -->
-    <div class="container-fluid p-4" id="graficas">
+    <div class="container-fluid p-5" id="graficas">
         <div class="text-center mb-3">
-            <h2 class="d-inline-block">Gráficas</h2>
+            <h2 class="d-inline-block">Gráfica</h2>
+
         </div>
-        <canvas id="myChart" width="400" height="400"></canvas>
+        <p>En la siguiente gráfica se puede observar una comparación entre los personajes y en el número de
+            historias disponibles para consulta en línea.</p>
+        <canvas id="myChart" width="200" height="200"></canvas>
     </div>
 
-
+    <div class='container-fluid text-center m-3' id="GIFcontainer"></div>
+    <div class="text-center">
+        <button type="button" class="btn " onClick="document.getElementById('navbar').scrollIntoView();">Volver al menú
+            principal</button>
+    </div>
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
-<script src="/assets/js/main.js"></script>
+<script src="/index.js" type="module"></script>
 
 </html>
 <br>
