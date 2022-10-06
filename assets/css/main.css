@@ -4,38 +4,64 @@
 }
 
 body {
-    background-color: black;
+    background-color: #FCF9F2;
 }
 
-/* General */
-h1 {
+.red {
+    color: red;
     font-weight: bold;
-    font-size: 2rem;
+}
+
+.strong {
+    font-weight: bold;
 }
 
 h2 {
-    font-size: 1.5rem;
-}
-
-/* SideBar */
-.nav {
-    background-color: yellow;
-    border-radius: 10px;
-
-}
-
-.proy-info {
-    background-color: white;
+    background-color: red;
+    color: #FCF9F2;
+    padding: 20px;
     border-radius: 10px;
 }
 
-/* Dashboard */
-.dashboard {
+.btn {
+    background-color: red;
+    color: #FCF9F2;
+    border: 1px solid red;
+
+}
+
+.btn:hover {
     background-color: #FCF9F2;
-    padding: 0px;
+    color: black;
+    border: 1px solid black;
 }
 
-.main-img {
-    width: 100%;
-    max-height: 70vh;
+.btn:active {
+    background-color: #FCF9F2;
+    color: black;
+    border: 1px solid black;
+}
+
+
+/* Banner */
+.presentacion {
+    height: 100vh;
+}
+
+.marvel-banner {
+    background-image: url('/assets/images/Marvel_banner.jpeg');
+    background-position: center;
+    height: 40%;
+}
+
+/* Table */
+table,
+td,
+tr {
+    border: 3px solid;
+}
+
+th {
+    background-color: black;
+    color: #FCF9F2;
 }
